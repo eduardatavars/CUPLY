@@ -362,3 +362,29 @@ html, body {
         margin-right: 0 !important;
     }
 }
+
+/* ============================= */
+/* AJUSTE DE FONTE MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .text-banner h1,
+    .text-banner h1 b,
+    .title,
+    .title b,
+    .card-item .title-produto,
+    .card-item .title-produto b,
+    .price-produto,
+    .price-produto b {
+        font-family: 'PoppinsMedium', 'Rubik', sans-serif !important;
+        font-weight: 600 !important;
+    }
+
+    .text-banner p,
+    .card-text span {
+        font-family: 'PoppinsMedium', 'Rubik', sans-serif !important;
+        font-weight: 400 !important;
+    }
+
+}

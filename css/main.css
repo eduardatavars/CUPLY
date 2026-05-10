@@ -41,6 +41,17 @@ b {
     color: var(--color-primary);
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
 /* MENU */
 
 .nav-link {
