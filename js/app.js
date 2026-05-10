@@ -622,7 +622,7 @@ catalogo.metodos = {
     // carrega o link do btn reserva
     carregarBtnReserva: () => {
 
-      var texto = 'Olá! Gostaria de personalizar uma *caneca* 😊'; 
+      var texto = 'Olá! Gostaria de personalizar uma *caneca*.'; 
 
       let encode = encodeURI(texto);
       let URL = `https://wa.me/${CELULAR_CUPLY}?text=${encode}`;
