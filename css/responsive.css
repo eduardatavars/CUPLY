@@ -1,0 +1,364 @@
+/* ============================= */
+/* RESPONSIVO GERAL */
+/* ============================= */
+
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+
+    .no-mobile {
+        display: none !important;
+    }
+
+    .col-one {
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+}
+
+
+/* ============================= */
+/* MENU MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .navbar-toggler-icon {
+        padding-top: 5px;
+    }
+
+    .navbar-collapse {
+        background-color: var(--color-white);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-collapse .btn-white {
+        margin-top: 20px;
+    }
+
+    .navbar-collapse .btn-icon {
+        padding-right: 20px;
+    }
+
+    .navbar-collapse .btn-icon span.icon {
+        display: none;
+    }
+}
+
+
+/* ============================= */
+/* BANNER MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow-x: hidden;
+    }
+
+    .banner .container,
+    .banner .row,
+    .text-banner {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .text-banner h1 {
+        font-size: 44px;
+        line-height: 1.15;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 100%;
+    }
+
+    .btn-icon-left {
+        padding-left: 63px !important;
+    }
+
+    .btn-icon-left span.icon-left {
+        width: 43px;
+        height: 43px;
+        margin-left: -56px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-banner h1 {
+        font-size: 40px;
+    }
+}
+
+
+/* ============================= */
+/* SEÇÕES MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .servicos,
+    .catalogo,
+    .depoimentos,
+    .reserva {
+        padding-bottom: 50px;
+    }
+
+    .card-secondary {
+        padding: 45px;
+        border-radius: 50px;
+    }
+}
+
+
+/* ============================= */
+/* MENU DO CATÁLOGO */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .container-menu {
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+    }
+
+    .container-menu .btn {
+        flex: 0 0 auto;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* ============================= */
+/* CARDS DO CATÁLOGO MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    #itemCatalogo > div {
+        margin-bottom: 15px !important;
+    }
+
+    .card-item {
+        width: 100%;
+        height: 110px;
+        padding-left: 110px;
+        padding-right: 15px;
+        border-radius: 18px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        overflow: visible;
+    }
+
+    .card-item .img-produto {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 14px;
+        overflow: hidden;
+    }
+
+    .card-item .img-produto img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 14px;
+        display: block;
+    }
+
+    .card-item .title-produto {
+        text-align: left !important;
+        margin-top: 0 !important;
+        margin-bottom: 4px !important;
+        height: 30px !important;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 18px;
+    }
+
+    .card-item .price-produto {
+        text-align: left !important;
+        margin: 0 !important;
+        font-size: 20px !important;
+    }
+
+    .card-item .add-carrinho {
+        margin-top: 5px;
+    }
+
+    .card-item .btn-add {
+        margin-left: 10px;
+    }
+
+    .card-item .btn-menos,
+    .card-item .btn-mais {
+        padding: 4px 6px;
+    }
+
+    .card-item .add-numero-itens {
+        padding: 2px 10px;
+    }
+}
+
+/* ============================= */
+/* MODAL IMAGEM MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .modal-imagem {
+        padding: 25px;
+    }
+
+    .modal-conteudo {
+        max-width: 100%;
+        max-height: 65vh;
+    }
+
+    .modal-conteudo:hover {
+        transform: none;
+    }
+
+    .seta-modal {
+        width: 38px;
+        height: 38px;
+        font-size: 24px;
+    }
+
+    .titulo-modal {
+        font-size: 22px;
+    }
+
+    .descricao-modal {
+        font-size: 15px;
+    }
+
+    .miniatura-img {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+
+/* ============================= */
+/* MODAL CARRINHO MOBILE */
+/* ============================= */
+
+@media (max-width: 767px) {
+
+    .modal-full {
+        padding: 35px 25px;
+    }
+
+    .m-footer .btn-white,
+    .m-footer .btn-pink {
+        padding: 15px;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .modal-full .item-carrinho {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .modal-full .img-produto {
+        position: relative;
+        left: 0;
+    }
+
+    .modal-full .img-produto img {
+        width: 75px;
+    }
+
+    .modal-full .dados-produto {
+        padding-left: 15px;
+        padding-right: 15px;
+        display: grid;
+    }
+
+    .modal-full .title-produto,
+    .modal-full .price-produto {
+        font-size: 16px !important;
+    }
+
+    .modal-full .add-numero-itens {
+        padding: 2px 10px;
+    }
+
+    .modal-full .form-control {
+        font-size: 16px;
+    }
+
+    #resumoCarrinho p {
+        font-size: 18px;
+    }
+}
+
+
+/* ============================= */
+/* FOOTER MOBILE */
+/* ============================= */
+
+@media (max-width: 575px) {
+
+    footer {
+        padding: 35px 20px;
+        text-align: center;
+    }
+
+    .container-logo-footer,
+    .container-texto-footer,
+    .container-redes-footer {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .logo-footer {
+        max-width: 140px;
+        margin-bottom: 10px;
+    }
+
+    .container-texto-footer p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .container-redes-footer {
+        display: flex;
+        gap: 12px;
+    }
+
+    .container-redes-footer .btn-social {
+        margin-right: 0 !important;
+    }
+}
