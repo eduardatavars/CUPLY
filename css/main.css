@@ -951,3 +951,27 @@ select.form-control {
     border-radius: 50px;
     margin-bottom: 10px;
 }
+
+/* NAVBAR TOGGLE */
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+}
+
+.navbar-toggler-icon {
+    background-image: none !important;
+}
+
+.navbar-toggler i {
+    color: var(--color-black);
+}
+
+.navbar-toggler {
+    -webkit-tap-highlight-color: transparent;
+}
